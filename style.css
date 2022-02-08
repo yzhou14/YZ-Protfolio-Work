@@ -116,10 +116,15 @@ h4{
 
 .sectioncover1{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 218px;
     top: 178px;
     height: 300px;
     width: 300px;
+
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
@@ -127,10 +132,15 @@ h4{
 
 .sectioncover2{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 606px;
     top: 178px;
     height: 300px;
     width: 300px;
+
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
@@ -138,10 +148,15 @@ h4{
 
 .sectioncover3{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 994px;
     top: 178px;
     height: 300px;
     width: 300px;
+
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
@@ -149,10 +164,15 @@ h4{
 
 .sectioncover4{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 218px;
-    top: 505px;
+    top: 507px;
     height: 300px;
     width: 300px;
+
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
@@ -160,10 +180,15 @@ h4{
 
 .sectioncover5{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 606px;
-    top: 505px;
+    top: 507px;
     height: 300px;
     width: 300px;
+
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
@@ -171,13 +196,25 @@ h4{
 
 .sectioncover6{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     left: 994px;
-    top: 505px;
+    top: 507px;
     height: 300px;
     width: 300px;
+    
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 800;
+    color: #515151;
 }
 
 
