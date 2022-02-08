@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    $(".sectioncover1").hover(function(){
+    $(".sectioncover1").mouseover(function(){
         $(this).slideToggle(1000);
-    });
+    })
 
-    $(".sectioncover2").hover(function(){
+    $(".sectioncover2").mouseover(function(){
         $(this).slideToggle(1000);
     });
 

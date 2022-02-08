@@ -71,13 +71,15 @@ h4{
 .section1{
     height: 300px;
     width: 300px;
-    background-color: #EAF1F8;
+    background-image: url(illu01.png);
+    background-size: cover;
 }
 
 .section2{
     height: 300px;
     width: 300px;
-    background-color: #EAF1F8;
+    background-image: url(sculpture01.png);
+    background-size: cover;
 }
 
 .section3{
@@ -112,57 +114,70 @@ h4{
 
 
 
-
-.container3{
+.sectioncover1{
     position: absolute;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 1076px;
-    height: 645px;
-    margin-top: 178px;
-    margin-left: 218px;
+    left: 218px;
+    top: 178px;
+    height: 300px;
+    width: 300px;
+    background-image: url(watercolor.png);
+    background-size: cover;
     overflow: hidden;
 }
 
-.sectioncover1{
-    height: 300px;
-    width: 300px;
-    background-color: #c3c9cf;
-}
-
 .sectioncover2{
+    position: absolute;
+    left: 606px;
+    top: 178px;
     height: 300px;
     width: 300px;
-    background-color: #c3c9cf;
+    background-image: url(watercolor.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .sectioncover3{
+    position: absolute;
+    left: 994px;
+    top: 178px;
     height: 300px;
     width: 300px;
-    background-color: #c3c9cf;
+    background-image: url(watercolor.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .sectioncover4{
-    margin-top: 4%;
+    position: absolute;
+    left: 218px;
+    top: 505px;
     height: 300px;
     width: 300px;
-    background-color: #c3c9cf;
+    background-image: url(watercolor.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .sectioncover5{
-    margin-top: 4%;
+    position: absolute;
+    left: 606px;
+    top: 505px;
     height: 300px;
     width: 300px;
-    background-color: #c3c9cf;
+    background-image: url(watercolor.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .sectioncover6{
-    margin-top: 4%;
+    position: absolute;
+    left: 994px;
+    top: 505px;
     height: 300px;
     width: 300px;
-    background-color: #c3c9cf;
+    background-image: url(watercolor.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 
@@ -179,8 +194,8 @@ h4{
     align-items: center;
     position: fixed;
     height: 55px;
-    width: 940px;
-    margin-left: 286px;
+    width: 1030px;
+    margin-left: 250px;
     margin-top: 880px;
 }
 
@@ -191,11 +206,26 @@ h4{
     background: rgba(89, 175, 255, 0.7);
 }
 
+.button1:hover{
+    background: rgba(119, 214, 255, 0.5);
+}
+
 .button2{
     height: 55px;
     width: 205px;
     border-radius: 50px;
     background: rgba(161, 248, 226);
+}
+
+.button2:hover{
+    background: rgba(179, 255, 167, 0.3);
+}
+
+.homebutton:hover{
+    background-image: url(homebutton_grey.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
 }
 
 .button3{
@@ -205,11 +235,19 @@ h4{
     background: rgba(255, 217, 119, 0.7);
 }
 
+.button3:hover{
+    background: rgba(255, 217, 119, 0.5);
+}
+
 .button4{
     height: 55px;
     width: 205px;
     border-radius: 50px;
     background: rgba(255, 143, 119, 0.7);
+}
+
+.button4:hover{
+    background: rgba(255, 143, 119, 0.5);
 }
 
 h6{
@@ -220,6 +258,12 @@ h6{
     font-weight: bolder;
     font-family: 'Baloo Bhaijaan 2', cursive;
     color: #FFFFFF;
+}
+
+h6:hover{
+    margin-top: 4%;
+    font-size: 23px;
+    color: #515151;
 }
 
 
