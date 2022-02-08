@@ -128,6 +128,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .sectioncover2{
@@ -144,6 +145,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .sectioncover3{
@@ -160,6 +162,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .sectioncover4{
@@ -176,6 +179,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .sectioncover5{
@@ -192,6 +196,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .sectioncover6{
@@ -208,6 +213,7 @@ h4{
     background-image: url(watercolor.png);
     background-size: cover;
     overflow: hidden;
+    pointer-events: none;
 }
 
 h3{
