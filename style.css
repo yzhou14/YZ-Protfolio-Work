@@ -71,15 +71,11 @@ h4{
 .section1{
     height: 300px;
     width: 300px;
-    background-image: url(illu01.png);
-    background-size: cover;
 }
 
 .section2{
     height: 300px;
     width: 300px;
-    background-image: url(sculpture01.png);
-    background-size: cover;
 }
 
 .section3{
